@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000000000000000000B0A0 /* unicodocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A0 /* unicodocApp.swift */; };
+		00000000000000000000B0A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A1 /* ContentView.swift */; };
+		00000000000000000000B0A2 /* UnicodeBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A2 /* UnicodeBlock.swift */; };
+		00000000000000000000B0A3 /* UnicodeBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A3 /* UnicodeBlocks.swift */; };
+		00000000000000000000B0A4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A4 /* SidebarView.swift */; };
+		00000000000000000000B0A5 /* CharacterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A5 /* CharacterTableView.swift */; };
+		00000000000000000000B0A7 /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A7 /* CharacterDetailView.swift */; };
+		00000000000000000000B0A8 /* CharacterNameIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A8 /* CharacterNameIndex.swift */; };
+		00000000000000000000B0A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0A9 /* Assets.xcassets */; };
+		00000000000000000000B0AA /* FontSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AA /* FontSettings.swift */; };
+		00000000000000000000B0AF /* UnicodeBlocks+Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AF /* UnicodeBlocks+Japanese.swift */; };
+		00000000000000000000B0AB /* GlyphAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AB /* GlyphAvailability.swift */; };
+		00000000000000000000B0AC /* GlyphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AC /* GlyphView.swift */; };
+		00000000000000000000B0AD /* GridRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AD /* GridRowView.swift */; };
+		00000000000000000000B0AE /* GridTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0AE /* GridTableView.swift */; };
+		00000000000000000000B0B0 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0B0 /* SearchField.swift */; };
+		00000000000000000000B0B1 /* AppPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0B1 /* AppPersistence.swift */; };
+		00000000000000000000B0B2 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0B2 /* Notifications.swift */; };
+		00000000000000000000B0B3 /* GlyphDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000A0B3 /* GlyphDrawer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00000000000000000000A0A0 /* unicodocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unicodocApp.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A2 /* UnicodeBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeBlock.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A3 /* UnicodeBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeBlocks.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A5 /* CharacterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A7 /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A8 /* CharacterNameIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterNameIndex.swift; sourceTree = "<group>"; };
+		00000000000000000000A0A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00000000000000000000A0AA /* FontSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSettings.swift; sourceTree = "<group>"; };
+		00000000000000000000A0AF /* UnicodeBlocks+Japanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnicodeBlocks+Japanese.swift"; sourceTree = "<group>"; };
+		00000000000000000000A0AB /* GlyphAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphAvailability.swift; sourceTree = "<group>"; };
+		00000000000000000000A0AC /* GlyphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0AD /* GridRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridRowView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0AE /* GridTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTableView.swift; sourceTree = "<group>"; };
+		00000000000000000000A0B0 /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		00000000000000000000A0B1 /* AppPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPersistence.swift; sourceTree = "<group>"; };
+		00000000000000000000A0B2 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		00000000000000000000A0B3 /* GlyphDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlyphDrawer.swift; sourceTree = "<group>"; };
+		00000000000000000000D0D0 /* Unicodoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unicodoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000E0E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00000000000000000000C0C0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000C0C2 /* unicodoc */,
+				00000000000000000000C0C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000000000000000C0C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000D0D0 /* Unicodoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C0C2 /* unicodoc */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A0A0 /* unicodocApp.swift */,
+				00000000000000000000A0A1 /* ContentView.swift */,
+				00000000000000000000C0C3 /* Models */,
+				00000000000000000000C0C4 /* Views */,
+				00000000000000000000A0A9 /* Assets.xcassets */,
+			);
+			path = unicodoc;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C0C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A0A2 /* UnicodeBlock.swift */,
+				00000000000000000000A0A3 /* UnicodeBlocks.swift */,
+				00000000000000000000A0AF /* UnicodeBlocks+Japanese.swift */,
+				00000000000000000000A0AA /* FontSettings.swift */,
+				00000000000000000000A0B1 /* AppPersistence.swift */,
+				00000000000000000000A0B2 /* Notifications.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00000000000000000000C0C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000A0A4 /* SidebarView.swift */,
+				00000000000000000000A0A5 /* CharacterTableView.swift */,
+				00000000000000000000A0A7 /* CharacterDetailView.swift */,
+				00000000000000000000A0A8 /* CharacterNameIndex.swift */,
+				00000000000000000000A0AB /* GlyphAvailability.swift */,
+				00000000000000000000A0AC /* GlyphView.swift */,
+				00000000000000000000A0AD /* GridRowView.swift */,
+				00000000000000000000A0AE /* GridTableView.swift */,
+				00000000000000000000A0B0 /* SearchField.swift */,
+				00000000000000000000A0B3 /* GlyphDrawer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00000000000000000000D0D2 /* unicodoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000F0F9 /* Build configuration list for PBXNativeTarget "unicodoc" */;
+			buildPhases = (
+				00000000000000000000E0E0 /* Sources */,
+				00000000000000000000E0E1 /* Resources */,
+				00000000000000000000E0E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unicodoc;
+			productName = unicodoc;
+			productReference = 00000000000000000000D0D0 /* Unicodoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00000000000000000000D0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00000000000000000000D0D2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000F0F8 /* Build configuration list for PBXProject "unicodoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00000000000000000000C0C0;
+			productRefGroup = 00000000000000000000C0C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000000000000000D0D2 /* unicodoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00000000000000000000E0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B0A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000E0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000B0A0 /* unicodocApp.swift in Sources */,
+				00000000000000000000B0A1 /* ContentView.swift in Sources */,
+				00000000000000000000B0A2 /* UnicodeBlock.swift in Sources */,
+				00000000000000000000B0A3 /* UnicodeBlocks.swift in Sources */,
+				00000000000000000000B0A4 /* SidebarView.swift in Sources */,
+				00000000000000000000B0A5 /* CharacterTableView.swift in Sources */,
+				00000000000000000000B0A7 /* CharacterDetailView.swift in Sources */,
+				00000000000000000000B0A8 /* CharacterNameIndex.swift in Sources */,
+				00000000000000000000B0AA /* FontSettings.swift in Sources */,
+				00000000000000000000B0AF /* UnicodeBlocks+Japanese.swift in Sources */,
+				00000000000000000000B0AB /* GlyphAvailability.swift in Sources */,
+				00000000000000000000B0AC /* GlyphView.swift in Sources */,
+				00000000000000000000B0AD /* GridRowView.swift in Sources */,
+				00000000000000000000B0AE /* GridTableView.swift in Sources */,
+				00000000000000000000B0B0 /* SearchField.swift in Sources */,
+				00000000000000000000B0B1 /* AppPersistence.swift in Sources */,
+				00000000000000000000B0B2 /* Notifications.swift in Sources */,
+				00000000000000000000B0B3 /* GlyphDrawer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000F0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00000000000000000000F0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		00000000000000000000F0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Unicodoc;
+				INFOPLIST_KEY_CFBundleName = Unicodoc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yuuan.unicodoc;
+				PRODUCT_NAME = Unicodoc;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		00000000000000000000F0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Unicodoc;
+				INFOPLIST_KEY_CFBundleName = Unicodoc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yuuan.unicodoc;
+				PRODUCT_NAME = Unicodoc;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000F0F8 /* Build configuration list for PBXProject "unicodoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000F0F0 /* Debug */,
+				00000000000000000000F0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000F0F9 /* Build configuration list for PBXNativeTarget "unicodoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000F0F2 /* Debug */,
+				00000000000000000000F0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00000000000000000000D0D1 /* Project object */;
+}

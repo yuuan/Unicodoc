@@ -1,0 +1,17 @@
+# SwiftFormat config — see https://github.com/nicklockwood/SwiftFormat
+
+--swiftversion 5.9
+--exclude unicodoc.xcodeproj,unicodoc/Models/UnicodeBlocks.swift,unicodoc/Models/UnicodeBlocks+Japanese.swift
+
+--self init-only
+--stripunusedargs closure-only
+--maxwidth 120
+--trimwhitespace always
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+
+# SwiftFormat's wrapMultilineStatementBraces wants the brace on its own line
+# for multi-line conditions; SwiftLint's opening_brace wants it on the same
+# line. Disable the former so both tools agree.
+--disable wrapMultilineStatementBraces

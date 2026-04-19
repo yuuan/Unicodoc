@@ -1,0 +1,75 @@
+version: '3'
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode.app/Contents/Developer
+
+vars:
+  PROJECT: unicodoc.xcodeproj
+  SCHEME: unicodoc
+  APP: Unicodoc
+  DEBUG_APP: $HOME/Library/Developer/Xcode/DerivedData/unicodoc-cczyeugfdpezricdszkevdwvuvem/Build/Products/Debug/{{.APP}}.app
+
+tasks:
+  default:
+    cmds:
+      - task --list
+
+  build:
+    desc: Build Debug configuration.
+    cmds:
+      - xcodebuild -project {{.PROJECT}} -scheme {{.SCHEME}} -configuration Debug -destination 'platform=macOS' build
+
+  build:release:
+    desc: Build Release configuration.
+    cmds:
+      - xcodebuild -project {{.PROJECT}} -scheme {{.SCHEME}} -configuration Release -destination 'platform=macOS' build
+
+  clean:
+    desc: Delete derived build products.
+    cmds:
+      - xcodebuild -project {{.PROJECT}} -scheme {{.SCHEME}} clean
+
+  run:
+    desc: Stop any running instance, rebuild, and launch.
+    deps: [kill, build]
+    cmds:
+      - open "{{.DEBUG_APP}}"
+
+  kill:
+    desc: Quit the running app if any.
+    cmds:
+      - osascript -e 'tell application "{{.APP}}" to quit' 2>/dev/null || true
+
+  open:
+    desc: Open the project in Xcode.
+    cmds:
+      - open {{.PROJECT}}
+
+  lint:
+    desc: Run SwiftLint on the source tree.
+    cmds:
+      - swiftlint lint --quiet
+
+  lint:fix:
+    desc: Auto-correct SwiftLint violations where possible.
+    cmds:
+      - swiftlint lint --autocorrect --quiet
+
+  format:
+    desc: Reformat sources in place with SwiftFormat.
+    cmds:
+      - swiftformat unicodoc
+
+  format:check:
+    desc: Report SwiftFormat diffs without writing.
+    cmds:
+      - swiftformat --lint unicodoc
+
+  doctor:
+    desc: Print the tool versions being used.
+    cmds:
+      - echo "DEVELOPER_DIR = $DEVELOPER_DIR"
+      - xcodebuild -version
+      - swift --version
+      - swiftlint --version
+      - swiftformat --version
